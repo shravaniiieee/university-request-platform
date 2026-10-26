@@ -15,5 +15,4 @@ The following entries summarize the main areas where AI assistance was used. The
 4. **Testing and Documentation:** Help review tests and prepare project documentation and setup instructions.
 
 ## Note
-
-This document summarizes known AI-assisted activities. Exact prompts should be included where available. Any unavailable prompt history has not been invented.
+This document summarizes AI-assisted tasks.
