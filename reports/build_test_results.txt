@@ -1,0 +1,67 @@
+PYTEST: 3 passed\nVALIDATION\n{
+  "passed": true,
+  "errors": [],
+  "metrics": {
+    "roles_duplicate_primary_keys": 0,
+    "requesters_duplicate_primary_keys": 0,
+    "terms_duplicate_primary_keys": 0,
+    "policy_documents_duplicate_primary_keys": 0,
+    "knowledge_articles_duplicate_primary_keys": 0,
+    "categories_duplicate_primary_keys": 0,
+    "tickets_duplicate_primary_keys": 0,
+    "messages_duplicate_primary_keys": 0,
+    "assignments_duplicate_primary_keys": 0,
+    "slas_duplicate_primary_keys": 0,
+    "resolution_feedback_duplicate_primary_keys": 0,
+    "ticket_events_duplicate_primary_keys": 0,
+    "ground_truth_duplicate_primary_keys": 0,
+    "fk_requesters_role_id_to_roles": 0,
+    "fk_tickets_requester_id_to_requesters": 0,
+    "fk_tickets_term_id_to_terms": 0,
+    "fk_tickets_category_id_to_categories": 0,
+    "fk_knowledge_articles_policy_id_to_policy_documents": 0,
+    "fk_messages_ticket_id_to_tickets": 0,
+    "fk_assignments_ticket_id_to_tickets": 0,
+    "fk_slas_ticket_id_to_tickets": 0,
+    "fk_resolution_feedback_ticket_id_to_tickets": 0,
+    "fk_ticket_article_citations_ticket_id_to_tickets": 0,
+    "fk_ticket_article_citations_article_id_to_knowledge_articles": 0,
+    "fk_ticket_events_ticket_id_to_tickets": 0,
+    "ticket_count": 5000,
+    "article_count": 200,
+    "message_count": 20000,
+    "ground_truth_count": 5,
+    "ticket_category_distribution": {
+      "CAT-001": 1307,
+      "CAT-002": 1255,
+      "CAT-004": 1229,
+      "CAT-003": 1209
+    },
+    "status_distribution": {
+      "resolved": 1751,
+      "in_progress": 893,
+      "closed": 866,
+      "escalated": 666,
+      "pending_requester": 448,
+      "open": 376
+    },
+    "priority_distribution": {
+      "normal": 2714,
+      "high": 1184,
+      "low": 743,
+      "urgent": 359
+    },
+    "invalid_priorities": 0,
+    "error_count": 0
+  }
+}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

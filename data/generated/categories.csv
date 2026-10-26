@@ -1,0 +1,5 @@
+category_id,category_code,display_name,default_team,active
+CAT-001,financial_aid,Financial Aid,Financial Aid Office,True
+CAT-002,registration,Registration,Registrar,True
+CAT-003,it,It,IT Service Desk,True
+CAT-004,accessibility,Accessibility,Accessibility Services,True

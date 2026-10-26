@@ -1,0 +1,30 @@
+[
+  {
+    "category_id":"CAT-001",
+    "category_code":"financial_aid",
+    "display_name":"Financial Aid",
+    "default_team":"Financial Aid Office",
+    "active":true
+  },
+  {
+    "category_id":"CAT-002",
+    "category_code":"registration",
+    "display_name":"Registration",
+    "default_team":"Registrar",
+    "active":true
+  },
+  {
+    "category_id":"CAT-003",
+    "category_code":"it",
+    "display_name":"It",
+    "default_team":"IT Service Desk",
+    "active":true
+  },
+  {
+    "category_id":"CAT-004",
+    "category_code":"accessibility",
+    "display_name":"Accessibility",
+    "default_team":"Accessibility Services",
+    "active":true
+  }
+]

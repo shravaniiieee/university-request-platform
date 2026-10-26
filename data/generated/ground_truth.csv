@@ -1,0 +1,6 @@
+ground_truth_id,ticket_id,issue_type,entity_type,expected_label,expected_decision,detection_rule,severity
+GT-001,TKT-2026-000001,expired_policy_citation,citation,anomaly,Answer cites expired policy,Citation article must be effective on response date.,high
+GT-002,TKT-2026-000002,unauthorized_team_routing,assignment,anomaly,Ticket routed to unauthorized team,Assigned team must be authorized for category.,high
+GT-003,TKT-2026-000003,unsupported_answer_claim,message,anomaly,Response claims unsupported fact,Response claims must be supported by cited policy/article.,high
+GT-004,TKT-2026-000004,business_hours_sla_error,sla,anomaly,SLA clock ignores business hours,SLA clock must use business-hours calendar.,high
+GT-005,TKT-2026-000005,escalation_not_triggered,escalation,anomaly,Escalation not triggered,Ambiguous or unresolved cases must escalate.,high

@@ -1,0 +1,30 @@
+[
+  {
+    "term_id":"TERM-001",
+    "term_name":"2025-FALL",
+    "start_date":"2025-08-25",
+    "end_date":"2025-12-19",
+    "is_current":false
+  },
+  {
+    "term_id":"TERM-002",
+    "term_name":"2026-SPRING",
+    "start_date":"2026-01-12",
+    "end_date":"2026-05-15",
+    "is_current":false
+  },
+  {
+    "term_id":"TERM-003",
+    "term_name":"2026-SUMMER",
+    "start_date":"2026-05-26",
+    "end_date":"2026-08-07",
+    "is_current":false
+  },
+  {
+    "term_id":"TERM-004",
+    "term_name":"2026-FALL",
+    "start_date":"2026-08-24",
+    "end_date":"2026-12-18",
+    "is_current":true
+  }
+]

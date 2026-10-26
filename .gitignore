@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+data/repro_a/
+data/repro_b/
+
+# Python and test artifacts
+*.pyo
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+venv/
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

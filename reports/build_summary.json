@@ -1,0 +1,23 @@
+{
+  "seed": 20261022,
+  "full_dataset": true,
+  "rows": {
+    "roles": 5,
+    "requesters": 1000,
+    "terms": 4,
+    "policy_documents": 50,
+    "knowledge_articles": 200,
+    "categories": 4,
+    "tickets": 5000,
+    "messages": 20000,
+    "assignments": 5000,
+    "slas": 5000,
+    "resolution_feedback": 1873,
+    "ticket_article_citations": 5000,
+    "ticket_events": 9623
+  },
+  "ground_truth_rows": 5,
+  "pytest_returncode": 0,
+  "validation_returncode": 0,
+  "reproducible": true
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "role_id":"ROLE-001",
+    "role_name":"learner",
+    "description":"Learner"
+  },
+  {
+    "role_id":"ROLE-002",
+    "role_name":"instructor",
+    "description":"Instructor"
+  },
+  {
+    "role_id":"ROLE-003",
+    "role_name":"academic_administrator",
+    "description":"Academic Administrator"
+  },
+  {
+    "role_id":"ROLE-004",
+    "role_name":"support_staff",
+    "description":"Support Staff"
+  },
+  {
+    "role_id":"ROLE-005",
+    "role_name":"platform_administrator",
+    "description":"Platform Administrator"
+  }
+]

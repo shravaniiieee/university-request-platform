@@ -1,0 +1,36 @@
+{
+  "identical": true,
+  "files_compared": 14,
+  "checksums_run_a": {
+    "assignments.csv": "1b2c53e5c1a5e896128d90292dcf33530230823cdb0a5d9054a880d2d4f778d5",
+    "categories.csv": "a0f1dc996e4eed0bea7f7e7c38af18866d8612700f24cf14b1e6868591baba96",
+    "ground_truth.csv": "d38650226c12dae1f555bb63939b7d07a6d00b17f204dbdd61bdd21e595a95e9",
+    "knowledge_articles.csv": "2438546a6c0f192accdfe72492c29b1d9adefc7de6c4c4d5cdb9ab9b95d97173",
+    "messages.csv": "97b6d877de58f01653f65bc1f836d4eee6ce130390fb741bdd87f82233b611e2",
+    "policy_documents.csv": "1a589006c4ec5881d2fdee9f092a63597c7b51d4cfdf9c44dae1e942242fa3a6",
+    "requesters.csv": "bfb13a4ed3797cd79c529bb8000cc19764109b3d23ea437c81e81b9b7f0e15e0",
+    "resolution_feedback.csv": "e1845db3dabc609c3d325aad22a929742f8d18edcf764b42dc281f7557c89340",
+    "roles.csv": "f8030f143daf677a6d02cea37053db01d4a6d14ca9f0ae6b0298c0d9c93c943b",
+    "slas.csv": "fafae0929edec753acfd69586b3c1f55775c2e8583b878de7ec8504b0eb76f94",
+    "terms.csv": "9d9d5e810cc8248729fa68bcc43bfb5f38dc55d1ee0352670535e3debef8b266",
+    "ticket_article_citations.csv": "c6212e1c16eac607b7821102d0c9644a19f1e9b0684ffe1cf2287d9e86445792",
+    "ticket_events.csv": "99f0560b86098c827b0dc5f96e15932642b20fa0c8feb7cfc6060d9a23f70085",
+    "tickets.csv": "cf025ea3a9398fef297a3b9fbd5d009436a2dc27bfdc392afd33da739e89d6d6"
+  },
+  "checksums_run_b": {
+    "assignments.csv": "1b2c53e5c1a5e896128d90292dcf33530230823cdb0a5d9054a880d2d4f778d5",
+    "categories.csv": "a0f1dc996e4eed0bea7f7e7c38af18866d8612700f24cf14b1e6868591baba96",
+    "ground_truth.csv": "d38650226c12dae1f555bb63939b7d07a6d00b17f204dbdd61bdd21e595a95e9",
+    "knowledge_articles.csv": "2438546a6c0f192accdfe72492c29b1d9adefc7de6c4c4d5cdb9ab9b95d97173",
+    "messages.csv": "97b6d877de58f01653f65bc1f836d4eee6ce130390fb741bdd87f82233b611e2",
+    "policy_documents.csv": "1a589006c4ec5881d2fdee9f092a63597c7b51d4cfdf9c44dae1e942242fa3a6",
+    "requesters.csv": "bfb13a4ed3797cd79c529bb8000cc19764109b3d23ea437c81e81b9b7f0e15e0",
+    "resolution_feedback.csv": "e1845db3dabc609c3d325aad22a929742f8d18edcf764b42dc281f7557c89340",
+    "roles.csv": "f8030f143daf677a6d02cea37053db01d4a6d14ca9f0ae6b0298c0d9c93c943b",
+    "slas.csv": "fafae0929edec753acfd69586b3c1f55775c2e8583b878de7ec8504b0eb76f94",
+    "terms.csv": "9d9d5e810cc8248729fa68bcc43bfb5f38dc55d1ee0352670535e3debef8b266",
+    "ticket_article_citations.csv": "c6212e1c16eac607b7821102d0c9644a19f1e9b0684ffe1cf2287d9e86445792",
+    "ticket_events.csv": "99f0560b86098c827b0dc5f96e15932642b20fa0c8feb7cfc6060d9a23f70085",
+    "tickets.csv": "cf025ea3a9398fef297a3b9fbd5d009436a2dc27bfdc392afd33da739e89d6d6"
+  }
+}

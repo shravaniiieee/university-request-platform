@@ -1,0 +1,52 @@
+[
+  {
+    "ground_truth_id":"GT-001",
+    "ticket_id":"TKT-2026-000001",
+    "issue_type":"expired_policy_citation",
+    "entity_type":"citation",
+    "expected_label":"anomaly",
+    "expected_decision":"Answer cites expired policy",
+    "detection_rule":"Citation article must be effective on response date.",
+    "severity":"high"
+  },
+  {
+    "ground_truth_id":"GT-002",
+    "ticket_id":"TKT-2026-000002",
+    "issue_type":"unauthorized_team_routing",
+    "entity_type":"assignment",
+    "expected_label":"anomaly",
+    "expected_decision":"Ticket routed to unauthorized team",
+    "detection_rule":"Assigned team must be authorized for category.",
+    "severity":"high"
+  },
+  {
+    "ground_truth_id":"GT-003",
+    "ticket_id":"TKT-2026-000003",
+    "issue_type":"unsupported_answer_claim",
+    "entity_type":"message",
+    "expected_label":"anomaly",
+    "expected_decision":"Response claims unsupported fact",
+    "detection_rule":"Response claims must be supported by cited policy\/article.",
+    "severity":"high"
+  },
+  {
+    "ground_truth_id":"GT-004",
+    "ticket_id":"TKT-2026-000004",
+    "issue_type":"business_hours_sla_error",
+    "entity_type":"sla",
+    "expected_label":"anomaly",
+    "expected_decision":"SLA clock ignores business hours",
+    "detection_rule":"SLA clock must use business-hours calendar.",
+    "severity":"high"
+  },
+  {
+    "ground_truth_id":"GT-005",
+    "ticket_id":"TKT-2026-000005",
+    "issue_type":"escalation_not_triggered",
+    "entity_type":"escalation",
+    "expected_label":"anomaly",
+    "expected_decision":"Escalation not triggered",
+    "detection_rule":"Ambiguous or unresolved cases must escalate.",
+    "severity":"high"
+  }
+]
